@@ -1,0 +1,21 @@
+package Chinni_Rohan;
+/**
+ * 
+ * @author Rohan Chinni
+ *
+ */
+public class Exercises 
+{
+	public static int threeAndFive()
+	{
+		
+	}
+	public static  int evenFibSum()
+	{
+		
+	}
+	public static int largestPrimeFactor()
+	{
+		
+	}
+}
