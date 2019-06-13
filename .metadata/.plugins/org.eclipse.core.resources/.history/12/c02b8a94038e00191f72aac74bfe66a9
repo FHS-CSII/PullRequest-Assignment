@@ -1,0 +1,52 @@
+/**
+ * @author Dylan Cerenov
+ */
+package Cerenov_Dylan;
+
+public class Exercises 
+{
+	public int threeAndFive()
+	{
+		int returnVal = 0;
+		for (int i = 0; i < 1000; i++)
+		{
+			if (i % 3 == 0 || i % 5 == 0)
+				returnVal = returnVal + i;
+		}
+		return returnVal;
+	}
+	
+	public int evenFibSum()
+	{
+		int returnVal = 0, t1 = 0, t2 = 1;
+        for (int i = 1; i <= 4000000; ++i)
+        {
+            int sum = t1 + t2;
+            t1 = t2;
+            t2 = sum;
+           
+            if (sum % 2 == 0)
+            	returnVal = returnVal + sum;
+        }
+		return returnVal;
+	}
+	
+	public int largestPrimeFactor()
+	{
+		long num = 600851475143L;
+		
+		long i = 1; 
+        for(int j = 2; j <= num; j++) 
+        {
+        	if (j == num)
+        	{ 
+        		i = num; 
+        		break; 
+        	} 
+            
+        	if (num % j == 0) 
+        		num--;
+        } 
+        return (int) i; 
+	}
+}
