@@ -1,0 +1,13 @@
+/**
+ * @author Simon Mandzha
+ */
+
+package Mandzha_Simon;
+
+public class Driver 
+{
+	public static void main(String[] args)
+	{
+		System.out.println(Exercises.largestPrimeFactor());
+	}
+}
