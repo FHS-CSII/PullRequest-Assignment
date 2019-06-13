@@ -50,24 +50,52 @@ public class Exercises
         int val = 0;
 
         int num1 = 1;
-        int num2 = 2;
+        int num2 = 1;
 
 
         while(num2 < 4000000)
         {
-            if(num1 % 2 ==0)
-                val += num1;
+
 
             num1 += num2;
             num2 += num1;
 
-            System.out.println("num1 " + num1);
-            System.out.println("num2 " + num2);
-            System.out.println("current sum:" + val);
-
+            if(num1 % 2 ==0)
+                val += num1;
+            else if (num2 % 2 == 0)
+                val += num2;
         }
 
         return val;
+
+    }
+
+    public static int largestPrimeFactor()
+    {
+        int retval = 0;
+
+        long num = 600851475143L;
+
+        for(long i = num; i > 0L; i++)
+        {
+            if(num % i == 0 && isPrime(i))
+                retval = (int)i;
+        }
+
+        return retval;
+    }
+
+    public static boolean isPrime(long num)
+    {
+        boolean retval = true;
+
+        for(long i = num - 1; i > 1L; i++) {
+            if (num % i == 0)
+                retval = false;
+        }
+
+        return retval;
+
 
     }
 
