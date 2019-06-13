@@ -1,0 +1,14 @@
+package Cowles_Abigail;
+
+public class run {
+
+	public static void main(String[] args) {
+		Excercises e = new Excercises();
+		
+		System.out.print(e.threeAndFive());
+		System.out.print(e.evenFibSum());
+		System.out.print(e.largestPrimeFactor());
+
+	}
+
+}
