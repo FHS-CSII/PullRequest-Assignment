@@ -24,22 +24,39 @@ public class Exercises
 		for (int i = 0; sum < 4000000; i++)
 		{
 			int temp = fib.get(i) + fib.get(i + 1);
-			if (temp % 2 == 0)
-			{
-				fib.add(temp);
-				sum += temp;
-			}
-			else {i--;}
+			fib.add(temp);
+			
+			if (temp % 2 == 0) {sum += temp;}
 		}
 		
-		sum -= fib.get(fib.size() - 1);
 		return sum;
 	}
 	
 	public static int largestPrimeFactor()
 	{
 		int biggest = 0;
-		for (int i = 1; i < Math.ceil(600851475143.0/2); i++) {if (600851475143.0 % i == 0 && isPrime(i)) {biggest = i;}}
+		long num = 600851475143L;
+		
+        for (int i = 2; i <= num; i++)
+        {
+            while (num % i == 0)
+            {
+            	num /= i;
+            	biggest = i;
+            }
+        }
+        
+		return biggest;
+	}
+	
+	public static int largestPrimeFactor(int pi)
+	{
+		int biggest = 0;
+		for (int i = 2; i < Math.ceil(600851475143.0/2); i++)
+		{
+			//System.out.println(i);
+			if (600851475143.0 % i == 0 && isPrime(i)) {biggest = i;}
+		}
 		
 		return biggest;
 	}
