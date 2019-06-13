@@ -1,0 +1,20 @@
+/**
+ * @author Lorenzo Matti
+ */
+
+package Matti_Lorenzo;
+
+public class Excercise {
+	
+	public int threeAndFive(){
+		
+	}
+	
+	public int evenFibSum(){
+		
+	}
+	
+	public int largestPrimeFactor(){
+		
+	}
+}

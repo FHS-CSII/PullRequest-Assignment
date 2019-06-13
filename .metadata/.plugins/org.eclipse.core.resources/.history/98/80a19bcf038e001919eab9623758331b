@@ -1,0 +1,47 @@
+/**
+ * @author Lorenzo Matti
+ */
+
+package Matti_Lorenzo;
+
+public class Excercise {
+
+	public int threeAndFive(){
+		int j = 0;
+		for (int i = 0; i< 1000; i++){
+			if (i%3==0||i%5==0)
+				j+=i;
+		}
+		return j;
+	}
+
+	public int evenFibSum(){
+		int a; 
+		int b = 0;
+		int c = 1;
+		int sum = 2;
+
+		for (int i = 0; i < 4000000; i++) { // Finds sequence
+			a = b;
+			b = c;
+			c = a + b;
+
+			if (c % 2 == 0)  // Check even
+				sum += c;
+		}
+		return sum;
+	}
+
+	public int largestPrimeFactor(){
+		int i;
+		long number = 600851475143L;
+
+		for (i = 2; i <= number; i++) {
+			if (number % i == 0) {
+				number /= i;
+				i--;
+			}
+		}
+		return i;
+	}
+}

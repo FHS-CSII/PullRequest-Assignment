@@ -1,0 +1,28 @@
+/**
+ * @author Lorenzo Matti
+ */
+
+package Matti_Lorenzo;
+
+public class Excercise {
+	
+	public int threeAndFive(){
+		int j = 0;
+		for (int i =0; i<= 1000; i++){
+			if (i/3==1||i/5==1)
+				j=i;
+		}
+		return j;
+	}
+	
+	public int evenFibSum(){
+		int j  = 0;
+		for (int i= 0;i<4000000;i++){
+			if (i)
+		}
+	}
+	
+	public int largestPrimeFactor(){
+		
+	}
+}
