@@ -48,4 +48,10 @@ public class Exercises {
 
 	}
 
+
+	public static void main(String[] args) {
+		System.out.println(threeAndFive());
+		System.out.println(evenFibSum());
+		System.out.println(largestPrimeFactor());
+	}
 }
