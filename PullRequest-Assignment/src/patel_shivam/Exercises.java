@@ -80,6 +80,7 @@ public class Exercises
         {
             if(num % i == 0 && isPrime(i))
                 retval = (int)i;
+            System.out.println(retval);
         }
 
         return retval;
@@ -89,9 +90,10 @@ public class Exercises
     {
         boolean retval = true;
 
-        for(long i = num - 1; i > 1L; i++) {
+        for(long i = num - 1; i > 1L && retval; i++) {
             if (num % i == 0)
                 retval = false;
+            System.out.println(i);
         }
 
         return retval;
