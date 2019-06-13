@@ -1,0 +1,42 @@
+/**
+ * @author Simon Mandzha
+ */
+
+package Mandzha_Simon;
+
+public class Exercises
+{
+	
+	//Returns the sum of all the multiples of 3 or 5 below 1000
+	public static int threeAndFive()
+	{
+		int sum = 0;
+		
+		for(int i = 0; i < 1000; i++)
+			if(i % 3 == 0)
+				sum += i;
+			else
+				if(i % 5 == 0)
+					sum += i;
+		
+		
+		return sum;
+	}
+	
+	//Returns the sum of the even-valued terms less than 4 million in the Fibonacci Sequence
+	public static int evenFibSum()
+	{
+		return 0;
+	}
+	
+	//Returns the largest prime factor of the number 600851475143
+	public static int largestPrimeFactor()
+	{
+		return 0;
+	}
+	
+	public static void main(String[] ma)
+	{
+		System.out.println(threeAndFive());
+	}
+}
