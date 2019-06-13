@@ -1,0 +1,8 @@
+package Bhatt_Sahil;
+
+public class Main 
+{
+	Exercises ex = new Exercises();
+	int x = ex.threeAndFive();
+	System.out.println(x);
+}
