@@ -41,11 +41,26 @@ public class Excercises
 	
 	static int largestPrimeFactor()
 	{
-		final long BIG = 600851475143l;
-		long num = ((long)Math.sqrt((double)BIG)) - 1;
+		long BIG = 600851475143l;
+		int counter = 2;
+		
+		while (counter < (BIG / 2) + 1)
+		{
+			if (BIG % counter == 0)
+			{
+				BIG = BIG / counter;
+				counter = 2;
+			}
+			else
+				counter++;
+		}
+		
+		return (int)BIG;
+		
+		/*long num = BIG / 2;
 		boolean keepGoing = true;
 		
-		while (keepGoing && (num < (BIG / 2) + 1))
+		while (keepGoing && (num > (Math.sqrt((double)BIG)) - 1))
 		{
 			if (BIG % num == 0)
 			{
@@ -61,12 +76,13 @@ public class Excercises
 					keepGoing = false;
 			}
 			else
-				num++;
+				num--;
 			
-			System.out.println(num);
+			//System.out.println(num);
 		}
+		*/
 		
-		return (int)num;
+		
 	}
 	
 }
