@@ -1,0 +1,54 @@
+package grady_matthew;
+
+public class Exercises 
+{
+	static int threeAndFive()
+	{
+		int sum = 0;
+		
+		for (int x = 0; x < 1000; x ++)
+		{
+			if (x % 3 == 0)
+			{
+				sum = sum + x;
+			}
+			
+			if (x % 5 == 0)
+			{
+				sum = sum + x;
+			}
+		}
+		return sum;
+	}
+	
+	static int evenFibSum()
+	{
+		
+	}
+	
+	static int largestPrimeFactor()
+	{
+        long num = 600851475143L;
+        boolean isPrime = true;
+        int highestNumber = 0;
+
+        for (int i = 2; i < num; i++) 
+        {
+            if (num % i == 0) 
+            {
+                for (int j = 2; j < i; j++) 
+                {
+                    if (i % j == 0) 
+                    {
+                        isPrime = false;
+                    }
+                }
+                if (isPrime) {
+
+                    highestNumber = i;
+                }
+            }   
+        }
+        return highestNumber;
+	}
+}
