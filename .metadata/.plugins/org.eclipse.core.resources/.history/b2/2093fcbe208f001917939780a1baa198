@@ -1,0 +1,9 @@
+package Sikaras_Michael;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		System.out.println(Exercises.evenFibSum() );
+	}
+
+}
