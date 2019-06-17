@@ -85,6 +85,7 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 !SESSION 2019-06-17 17:59:05.051 -----------------------------------------------
 eclipse.buildId=4.6.3.M20170301-0400
 java.version=1.8.0_131
@@ -276,6 +277,9 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !ENTRY org.eclipse.equinox.ds 1 0 2019-06-12 14:00:29.534
 !MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
 !SESSION 2019-06-13 13:05:45.541 -----------------------------------------------
+=======
+!SESSION 2019-06-14 07:01:37.315 -----------------------------------------------
+>>>>>>> pr/15
 eclipse.buildId=4.6.2.M20161124-1400
 java.version=1.8.0_91
 java.vendor=Oracle Corporation
@@ -283,6 +287,7 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.cpp.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.jface 2 0 2019-06-13 13:06:29.693
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2019-06-13 13:06:29.693
@@ -301,10 +306,20 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 !SUBENTRY 1 org.eclipse.jface 2 0 2019-06-12 14:03:30.338
 !MESSAGE A conflict occurred for F9:
 >>>>>>> pr/13
+=======
+!ENTRY org.eclipse.equinox.ds 1 0 2019-06-14 07:02:02.532
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.jface 2 0 2019-06-14 07:02:05.657
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-14 07:02:05.657
+!MESSAGE A conflict occurred for F9:
+>>>>>>> pr/15
 Binding(F9,
 	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildLastCommand,Rebuild Last Target,
 		Rebuild the last make target for the selected container or project.,
 		Category(org.eclipse.ui.category.project,Project,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -318,6 +333,9 @@ Binding(F9,
 =======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ac64dc2,
 >>>>>>> pr/13
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@19d75d3c,
+>>>>>>> pr/15
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -325,6 +343,7 @@ Binding(F9,
 	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.togglePauseOnErrorCommand,Pause on Test Execution Errors,
 		,
 		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7eeabaf3,
 		,,true),null),
@@ -338,11 +357,19 @@ Binding(F9,
 	org.eclipse.ui.contexts.window,,,system)
 !SUBENTRY 1 org.eclipse.jface 2 0 2019-06-12 14:03:30.338
 >>>>>>> pr/13
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c3cc103,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-14 07:02:05.657
+>>>>>>> pr/15
 !MESSAGE A conflict occurred for SHIFT+F9:
 Binding(SHIFT+F9,
 	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildCommand,Build Target Build,
 		Invoke a make target build for the selected container.,
 		Category(org.eclipse.ui.category.project,Project,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f5ae4e1,
 =======
@@ -544,10 +571,17 @@ Binding(F9,
 	org.eclipse.ui.contexts.window,,,system)
 !SUBENTRY 1 org.eclipse.jface 2 0 2019-06-12 14:00:33.597
 !MESSAGE A conflict occurred for SHIFT+F9:
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5af08232,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+>>>>>>> pr/15
 Binding(SHIFT+F9,
 	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.ShowFromClipboard,Open Element from Clipboard,
 		,
 		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@730c9287,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
@@ -568,13 +602,24 @@ Binding(SHIFT+F9,
 	org.eclipse.ui.contexts.window,,,system)
 !SUBENTRY 1 org.eclipse.jface 2 0 2019-06-13 13:14:27.643
 >>>>>>> pr/5
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41f57420,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-14 07:02:05.657
+>>>>>>> pr/15
 !MESSAGE A conflict occurred for ALT+C:
 Binding(ALT+C,
 	ParameterizedCommand(Command(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaeditor.copycolumn,Copy,
 		,
 		Category(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaedtor.10x,ASA 9.x table schema editor,null,true),
 <<<<<<< HEAD
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c3b4de1,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62e8ef9f,
+>>>>>>> pr/15
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -582,18 +627,29 @@ Binding(ALT+C,
 	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.newComment,New Comment,
 		,
 		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1925b113,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58e61e18,
+>>>>>>> pr/15
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.ui 2 0 2019-06-12 14:00:38.929
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\121ADonohue'. If this is
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-14 07:02:27.927
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\121ALashenick'. If this is
+>>>>>>> pr/15
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.equinox.ds 1 0 2019-06-12 14:00:39.023
 !MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
 !SESSION 2019-06-13 13:05:01.644 -----------------------------------------------
@@ -4481,3 +4537,7 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !ENTRY org.eclipse.e4.ui.workbench 2 0 2019-06-13 23:46:46.476
 !MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.tmf.ui.views.synchronization' id and the 'Synchronization' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 >>>>>>> pr/14
+=======
+!ENTRY org.eclipse.equinox.ds 1 0 2019-06-14 07:02:36.618
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+>>>>>>> pr/15

@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
 showIntro=false
 =======
@@ -8,3 +9,6 @@ knownEEFragments=org.eclipse.pde.api.tools.ee.osgiminimum10;1.1.200.v20180827-16
 =======
 showIntro=false
 >>>>>>> pr/13
+=======
+showIntro=false
+>>>>>>> pr/15
