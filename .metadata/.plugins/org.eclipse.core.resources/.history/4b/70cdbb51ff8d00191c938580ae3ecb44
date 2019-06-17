@@ -1,0 +1,68 @@
+package wang_jason;
+
+import java.util.ArrayList;
+
+/**
+ * @author Jason Wang
+ **/
+public class Exercises {
+	public int threeAndFive() {
+		int sum = 0;
+		for (int i = 0; i < 1000; i++) {
+			if (i % 3 == 0 || i % 5 == 0) {
+				sum = sum + i;
+			}
+		}
+
+		return sum;
+	}
+
+	public int evenFibSum() {
+		int a = 1, b = 1;
+
+		int sum = 0;
+		while (a <= 4000000) {
+			if (a % 2 == 0)
+				sum = sum + a;
+			int temp = a;
+			a = b;
+			b = temp + b;
+
+		}
+
+		return sum;
+
+	}
+
+	public static int largestPrimeFactor() {
+		int result[] = new int[4];
+		long num = 600851475143L;
+
+		int counter = 0;
+		for (int i = 2; i < num; i++) {
+			//System.out.println(i);
+			if (isPrime(i)) {
+				if (num % i == 0) {
+					result[counter] = i;
+					counter++;
+				}
+			}
+		}
+
+		return result[result.length - 1];
+
+	}
+
+	private static boolean isPrime(int value) {
+		for (int i = 2; i < value; i++) {
+			if (value % i == 0) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public static void main(String[] args) {
+		System.out.println(largestPrimeFactor());
+	}
+}
