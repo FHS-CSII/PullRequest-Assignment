@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 2019-06-13 16:45:38,047 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+=======
+2019-06-13 17:12:43,784 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+>>>>>>> pr/11
