@@ -346,3 +346,6 @@ Caused by: org.apache.http.client.CircularRedirectException: Circular redirect t
 !ENTRY org.eclipse.launchbar.core 2 0 2019-06-13 13:18:33.656
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
 >>>>>>> pr/2
+
+!ENTRY org.eclipse.equinox.ds 1 0 2019-06-17 18:02:11.462
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
