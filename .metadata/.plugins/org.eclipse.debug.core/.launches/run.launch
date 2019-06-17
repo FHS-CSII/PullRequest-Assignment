@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<<<<<<< HEAD
 <listEntry value="/PullRequest-Assignment/src/Cowles_Abigail/run.java"/>
+=======
+<listEntry value="/PullRequest-Assignment/src/fusco_sage/run.java"/>
+>>>>>>> pr/17
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
+<<<<<<< HEAD
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Cowles_Abigail.run"/>
+=======
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="fusco_sage.run"/>
+>>>>>>> pr/17
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="PullRequest-Assignment"/>
 </launchConfiguration>
