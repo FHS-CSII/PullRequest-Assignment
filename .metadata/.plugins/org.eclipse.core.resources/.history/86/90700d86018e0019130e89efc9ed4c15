@@ -1,0 +1,24 @@
+/*
+@author Ryan Forgosh
+
+
+*/
+package Forgosh_Ryan;
+
+public class Excersises 
+{
+	int threeAndFive()
+	{
+		
+	}
+	
+	int evenFibSum()
+	{
+		
+	}
+	
+	int largestPrimeFactor()
+	{
+		
+	}
+}

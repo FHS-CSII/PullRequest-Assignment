@@ -1,0 +1,13 @@
+package Forgosh_Ryan;
+
+public class VroomVroom 
+{
+
+	public static void main(String[] args) 
+	{
+		System.out.println(Excersises.threeAndFive());
+		System.out.println(Excersises.evenFibSum());
+		System.out.println(Excersises.largestPrimeFactor());
+	}
+
+}

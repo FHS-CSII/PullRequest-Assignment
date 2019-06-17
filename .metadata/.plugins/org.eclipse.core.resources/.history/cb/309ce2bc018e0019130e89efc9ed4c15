@@ -1,0 +1,44 @@
+/*
+@author Ryan Forgosh
+
+
+*/
+
+package Forgosh_Ryan;
+import java.util.ArrayList;
+public class Excersises 
+{
+	public static int threeAndFive()
+	{
+		int three = 3;
+		int five = 5;
+		int sum = 0;
+		while(three <= 1000)
+		{
+			three = three + 3;
+		}
+		while (five <= 1000)
+		{
+			five = five + 5;
+		}
+		sum = three + five;
+		return sum;
+	}
+	
+	public static int evenFibSum()
+	{
+		ArrayList<Integer> fib = new ArrayList<Integer>();
+		int sum = 0;
+		int two = 1; //The number in the sequence 2 ago
+		int one = 1; //The last number in the sequence
+		while (sum <= 4000000)
+		{
+			
+		}
+	}
+	
+	public static int largestPrimeFactor()
+	{
+		
+	}
+}

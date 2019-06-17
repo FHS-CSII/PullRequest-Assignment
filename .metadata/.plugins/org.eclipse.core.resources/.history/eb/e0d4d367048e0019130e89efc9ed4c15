@@ -1,0 +1,59 @@
+/*
+@author Ryan Forgosh
+
+
+*/
+
+package Forgosh_Ryan;
+import java.util.ArrayList;
+public class Excersises 
+{
+	public static int threeAndFive()
+	{
+		int three = 3;
+		int five = 5;
+		int sum = 0;
+		while(three <= 1000)
+		{
+			if ((three/5) + 3 != 0)
+			three +=3;
+			else three = 
+		}
+		while (five <= 1000)
+		{
+			if ((five/3) + 5 != 0)
+			five +=5;
+			else five -=5;
+		}
+		sum = three + five;
+		return sum;
+	}
+	
+	public static int evenFibSum()
+	{
+		ArrayList<Integer> fib = new ArrayList<Integer>();
+		int limit = 4000000;
+		long one = 0; //first even number in the sequence
+		long two = 2; // second even number in the sequence
+		long sum = one + two;
+		
+		while (two <= limit)
+		{
+			long three = 4 * two + one;
+			
+			if (three > limit)
+				break;
+			
+			one = two;
+			two = three;
+			sum += two;
+		}
+		
+		return (int) sum;
+	}
+	
+	public static int largestPrimeFactor()
+	{
+		
+	}
+}
