@@ -1,0 +1,12 @@
+/**
+ * @author Dylan Cerenov
+ */
+package Cerenov_Dylan;
+
+public class Exercises 
+{
+	public int threeAndFive()
+	{
+		
+	}
+}

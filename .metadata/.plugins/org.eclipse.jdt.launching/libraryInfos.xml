@@ -62,6 +62,9 @@
 </libraryInfo>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pr/7
 <libraryInfo home="C:\Program Files\Java\jre1.8.0_91" version="1.8.0_91">
 <bootpath>
 <entry path="C:\Program Files\Java\jre1.8.0_91\lib\resources.jar"/>
@@ -75,6 +78,7 @@
 </bootpath>
 <extensionDirs>
 <entry path="C:\Program Files\Java\jre1.8.0_91\lib\ext"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <entry path="C:\windows\Sun\Java\lib\ext"/>
 =======
@@ -107,6 +111,12 @@
 >>>>>>> pr/4
 =======
 >>>>>>> pr/5
+=======
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jre1.8.0_91\lib\endorsed"/>
+>>>>>>> pr/7
 </endorsedDirs>
 </libraryInfo>
 </libraryInfos>

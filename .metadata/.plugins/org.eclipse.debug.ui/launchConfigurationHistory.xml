@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchHistory>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <launchGroup id="org.eclipse.jubula.launch.ui.launchGroup.aut">
 <mruHistory>
 <<<<<<< HEAD
@@ -12,6 +13,11 @@
 =======
 <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;run&quot;/&gt;&#13;&#10;"/>
 >>>>>>> pr/4
+=======
+<launchGroup id="org.eclipse.jubula.launch.ui.launchGroup.aut">
+<mruHistory>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Main&quot;/&gt;&#13;&#10;"/>
+>>>>>>> pr/7
 </mruHistory>
 <favorites/>
 </launchGroup>
@@ -19,6 +25,7 @@
 <mruHistory/>
 <favorites/>
 </launchGroup>
+<<<<<<< HEAD
 =======
 <launchGroup id="org.eclipse.debug.ui.launchGroup.debug">
 <mruHistory>
@@ -28,10 +35,13 @@
 <favorites/>
 </launchGroup>
 >>>>>>> pr/5
+=======
+>>>>>>> pr/7
 <launchGroup id="org.eclipse.debug.ui.launchGroup.profile">
 <mruHistory/>
 <favorites/>
 </launchGroup>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <launchGroup id="org.eclipse.debug.ui.launchGroup.debug">
 <mruHistory>
@@ -49,6 +59,11 @@
 <mruHistory>
 <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Driver&quot;/&gt;&#13;&#10;"/>
 >>>>>>> pr/5
+=======
+<launchGroup id="org.eclipse.debug.ui.launchGroup.debug">
+<mruHistory>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Main&quot;/&gt;&#13;&#10;"/>
+>>>>>>> pr/7
 </mruHistory>
 <favorites/>
 </launchGroup>
@@ -58,6 +73,7 @@
 </launchGroup>
 <launchGroup id="org.eclipse.debug.ui.launchGroup.run">
 <mruHistory>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,6 +88,9 @@
 <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Driver&quot;/&gt;&#13;&#10;"/>
 <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Exercises&quot;/&gt;&#13;&#10;"/>
 >>>>>>> pr/5
+=======
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Main&quot;/&gt;&#13;&#10;"/>
+>>>>>>> pr/7
 </mruHistory>
 <favorites/>
 </launchGroup>
