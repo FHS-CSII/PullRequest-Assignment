@@ -75,3 +75,338 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.equinox.ds 1 0 2019-06-12 13:50:18.153
 !MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2019-06-12 13:59:10.773 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.ui 2 0 2019-06-12 14:00:43.080
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-06-12 14:00:43.080
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-12 14:00:43.736
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2019-06-12 14:00:44.806
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.jface 2 0 2019-06-12 14:00:45.837
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-12 14:00:45.837
+!MESSAGE A conflict occurred for SHIFT+F9:
+Binding(SHIFT+F9,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.ShowFromClipboard,Open Element from Clipboard,
+		,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7da3cbeb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+F9,
+	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildCommand,Build Target Build,
+		Invoke a make target build for the selected container.,
+		Category(org.eclipse.ui.category.project,Project,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5e396d2c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-12 14:00:45.837
+!MESSAGE A conflict occurred for F9:
+Binding(F9,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.togglePauseOnErrorCommand,Pause on Test Execution Errors,
+		,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@74e322fd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F9,
+	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildLastCommand,Rebuild Last Target,
+		Rebuild the last make target for the selected container or project.,
+		Category(org.eclipse.ui.category.project,Project,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@387907d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-12 14:00:45.837
+!MESSAGE A conflict occurred for ALT+C:
+Binding(ALT+C,
+	ParameterizedCommand(Command(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaeditor.copycolumn,Copy,
+		,
+		Category(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaedtor.10x,ASA 9.x table schema editor,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6018ff75,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+C,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.newComment,New Comment,
+		,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@755dae57,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-12 14:00:50.687
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\121rforgosh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2019-06-12 14:00:52.649
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+!SESSION 2019-06-13 13:06:02.977 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-13 13:08:17.383
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.webclipse.evergreen 4 0 2019-06-13 13:08:28.539
+!MESSAGE Cannot perform the update. Failed to download artifacts.
+!STACK 1
+org.eclipse.core.runtime.CoreException: An error occurred while collecting items to be installed
+	at com.genuitec.eclipse.webclipse.evergreen.internal.EvergreenUpdateProcess.run(EvergreenUpdateProcess.java:270)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: session context was:(profile=epp.package.cpp, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.core.common.platform,13.0.2.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.inlinesearch,1.11.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.meexplorer,13.0.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.meexplorer.jdt,1.11.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.monitor,13.0.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.news,1.11.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.patches,1.11.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.startup,1.11.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.startup.workspace,1.11.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.theming.base,1.11.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.theming.base.win,1.11.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.theming.core,1.11.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.theming.css,1.11.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.theming.epl,1.11.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.theming.scrollbar,1.11.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.theming.scrollbar.win,1.11.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.theming.ui,1.11.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.ui.common.platform,13.0.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.webclipse.evergreen,1.11.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipse.webicons,1.11.0.201906121516
+Contains: No repository found containing: osgi.bundle,com.genuitec.eclipsecolortheme.api,1.11.0.201906121516
+Contains: No repository found containing: org.eclipse.update.feature,com.genuitec.eclipse.base.feature,1.11.0.201906121516
+Contains: No repository found containing: org.eclipse.update.feature,com.genuitec.eclipse.common.explorer.jdt.feature,1.11.0.201906121516
+Contains: No repository found containing: org.eclipse.update.feature,com.genuitec.eclipse.theming.feature,1.11.0.201906121516
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 4 2019-06-13 13:08:28.539
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 4 0 2019-06-13 13:08:28.539
+!MESSAGE session context was:(profile=epp.package.cpp, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.core.common.platform,13.0.2.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.inlinesearch,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.meexplorer,13.0.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.meexplorer.jdt,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.monitor,13.0.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.news,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.patches,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.startup,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.startup.workspace,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.theming.base,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.theming.base.win,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.theming.core,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.theming.css,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.theming.epl,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.theming.scrollbar,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.theming.scrollbar.win,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.theming.ui,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.ui.common.platform,13.0.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.webclipse.evergreen,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipse.webicons,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: osgi.bundle,com.genuitec.eclipsecolortheme.api,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: org.eclipse.update.feature,com.genuitec.eclipse.base.feature,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: org.eclipse.update.feature,com.genuitec.eclipse.common.explorer.jdt.feature,1.11.0.201906121516
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-13 13:08:28.539
+!MESSAGE No repository found containing: org.eclipse.update.feature,com.genuitec.eclipse.theming.feature,1.11.0.201906121516
+
+!ENTRY org.eclipse.jface 2 0 2019-06-13 13:10:44.950
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-13 13:10:44.950
+!MESSAGE A conflict occurred for SHIFT+F9:
+Binding(SHIFT+F9,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.ShowFromClipboard,Open Element from Clipboard,
+		,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c2b2b56,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+F9,
+	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildCommand,Build Target Build,
+		Invoke a make target build for the selected container.,
+		Category(org.eclipse.ui.category.project,Project,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@26420ed1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-13 13:10:44.950
+!MESSAGE A conflict occurred for F9:
+Binding(F9,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.togglePauseOnErrorCommand,Pause on Test Execution Errors,
+		,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5df744d4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F9,
+	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildLastCommand,Rebuild Last Target,
+		Rebuild the last make target for the selected container or project.,
+		Category(org.eclipse.ui.category.project,Project,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6dbf203c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-13 13:10:44.950
+!MESSAGE A conflict occurred for ALT+C:
+Binding(ALT+C,
+	ParameterizedCommand(Command(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaeditor.copycolumn,Copy,
+		,
+		Category(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaedtor.10x,ASA 9.x table schema editor,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@486bd746,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+C,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.newComment,New Comment,
+		,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ee96c1c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.ds 1 0 2019-06-13 13:10:48.539
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-13 13:10:55.782
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\121rforgosh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2019-06-13 13:10:57.878
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-06-13 13:36:16.569
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-06-13 13:36:16.569
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2019-06-17 11:52:35.110 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-17 11:53:05.773
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-06-17 11:54:29.040
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-17 11:54:29.040
+!MESSAGE A conflict occurred for SHIFT+F9:
+Binding(SHIFT+F9,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.ShowFromClipboard,Open Element from Clipboard,
+		,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13bea51d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+F9,
+	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildCommand,Build Target Build,
+		Invoke a make target build for the selected container.,
+		Category(org.eclipse.ui.category.project,Project,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36142b6e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-17 11:54:29.040
+!MESSAGE A conflict occurred for F9:
+Binding(F9,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.togglePauseOnErrorCommand,Pause on Test Execution Errors,
+		,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14c16388,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F9,
+	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildLastCommand,Rebuild Last Target,
+		Rebuild the last make target for the selected container or project.,
+		Category(org.eclipse.ui.category.project,Project,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39c8101c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-17 11:54:29.040
+!MESSAGE A conflict occurred for ALT+C:
+Binding(ALT+C,
+	ParameterizedCommand(Command(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaeditor.copycolumn,Copy,
+		,
+		Category(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaedtor.10x,ASA 9.x table schema editor,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f38dc75,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+C,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.newComment,New Comment,
+		,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@48e0d3a7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.ds 1 0 2019-06-17 11:54:32.743
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-17 11:54:37.690
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\121rforgosh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2019-06-17 11:54:38.064
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
