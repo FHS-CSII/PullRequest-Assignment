@@ -1,0 +1,57 @@
+/**
+ * @author Michelle Hon //include this tag in your classes with your name
+ * 
+ * 	- Create the following static methods:
+ * 		- int threeAndFive() : Returns the sum of all the multiples of 3 or 5 below 1000
+ * 		- int evenFibSum() : Returns the sum of the even-valued terms less than 4 million in the Fibonacci Sequence
+ * 		- int largestPrimeFactor() : Returns the largest prime factor of the number 600851475143
+*/
+package Hon_Michelle;
+
+public class Exercises {
+	
+	static public int threeAndFive()
+	{
+		int sum = 0;
+		int i = 3;
+		while(i < 1000)
+		{
+			if((i % 3 == 0) || (i % 5 == 0))
+			{
+				sum += i;
+			}
+			i++;
+		}
+		return sum;
+	}
+	
+	public int evenFibSum()
+	{
+		int i = 0;
+		int sum = 0;
+		while(i < 4000000)
+		{
+			
+			
+		}
+		return 0;
+	}
+	
+	static public int largestPrimeFactor() //: Returns the largest prime factor of the number 600851475143
+	{
+		double lpf = 600851475143.0;
+		while(true)
+		{
+			lpf = lpf/2;
+			break;
+		}
+		return (int)lpf;
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(threeAndFive());
+		System.out.println(largestPrimeFactor());
+	}
+
+}
