@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <listEntry value="/PullRequest-Assignment/src/Donohue_Drew/Driver.java"/>
 =======
 <listEntry value="/PullRequest-Assignment/src/Mandzha_Simon/Driver.java"/>
@@ -22,10 +23,14 @@
 =======
 <listEntry value="/PullRequest-Assignment/src/Lytvyn_Alex/Driver.java"/>
 >>>>>>> pr/13
+=======
+<listEntry value="/PullRequest-Assignment/src/Sikaras_Michael/Driver.java"/>
+>>>>>>> pr/16
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,5 +52,8 @@
 =======
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Lytvyn_Alex.Driver"/>
 >>>>>>> pr/13
+=======
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Sikaras_Michael.Driver"/>
+>>>>>>> pr/16
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="PullRequest-Assignment"/>
 </launchConfiguration>
