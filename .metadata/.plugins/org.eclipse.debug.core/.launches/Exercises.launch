@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <listEntry value="/PullRequest-Assignment/src/Prakash_Tarun/Exercises.java"/>
 =======
 <listEntry value="/PullRequest-Assignment/src/Mandzha_Simon/Exercises.java"/>
@@ -14,10 +15,14 @@
 =======
 <listEntry value="/PullRequest-Assignment/src/Mahadevan_Omkaar/Exercises.java"/>
 >>>>>>> pr/12
+=======
+<listEntry value="/PullRequest-Assignment/src/Hon_Michelle/Exercises.java"/>
+>>>>>>> pr/19
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,5 +37,8 @@
 <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Mahadevan_Omkaar.Exercises"/>
 >>>>>>> pr/12
+=======
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Hon_Michelle.Exercises"/>
+>>>>>>> pr/19
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="PullRequest-Assignment"/>
 </launchConfiguration>

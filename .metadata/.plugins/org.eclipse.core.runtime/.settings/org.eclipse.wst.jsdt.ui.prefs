@@ -5,9 +5,13 @@ org.eclipse.wst.jsdt.ui.editor.tab.width=
 org.eclipse.wst.jsdt.ui.formatterprofiles.version=11
 org.eclipse.wst.jsdt.ui.javadoclocations.migrated=true
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 proposalOrderMigrated=true
 >>>>>>> pr/18
+=======
+proposalOrderMigrated=true
+>>>>>>> pr/19
 tabWidthPropagated=true
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true

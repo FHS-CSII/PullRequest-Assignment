@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 completion_tips_seen=org.eclipse.recommenders.completion.rcp.tips.types
 =======
 completion_tips_seen=org.eclipse.recommenders.completion.rcp.tips.discovery\:org.eclipse.recommenders.completion.rcp.tips.types
@@ -11,4 +12,7 @@ completion_tips_seen=org.eclipse.recommenders.completion.rcp.tips.types
 =======
 completion_tips_seen=org.eclipse.recommenders.completion.rcp.tips.types
 >>>>>>> pr/18
+=======
+completion_tips_seen=org.eclipse.recommenders.completion.rcp.tips.types
+>>>>>>> pr/19
 eclipse.preferences.version=1
