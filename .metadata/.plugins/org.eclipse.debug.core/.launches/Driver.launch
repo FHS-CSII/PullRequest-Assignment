@@ -3,6 +3,7 @@
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <listEntry value="/PullRequest-Assignment/src/Donohue_Drew/Driver.java"/>
 =======
 <listEntry value="/PullRequest-Assignment/src/Mandzha_Simon/Driver.java"/>
@@ -10,10 +11,14 @@
 =======
 <listEntry value="/PullRequest-Assignment/src/Puharic_Ryan/Driver.java"/>
 >>>>>>> pr/8
+=======
+<listEntry value="/PullRequest-Assignment/src/weiss_ari/Driver.java"/>
+>>>>>>> pr/9
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Donohue_Drew.Driver"/>
@@ -23,5 +28,8 @@
 =======
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Puharic_Ryan.Driver"/>
 >>>>>>> pr/8
+=======
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="weiss_ari.Driver"/>
+>>>>>>> pr/9
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="PullRequest-Assignment"/>
 </launchConfiguration>

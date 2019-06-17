@@ -2,18 +2,26 @@
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <listEntry value="/PullRequest-Assignment/src/Prakash_Tarun/Exercises.java"/>
 =======
 <listEntry value="/PullRequest-Assignment/src/Mandzha_Simon/Exercises.java"/>
 >>>>>>> pr/5
+=======
+<listEntry value="/PullRequest-Assignment/src/weiss_ari/Exercises.java"/>
+>>>>>>> pr/9
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Prakash_Tarun.Exercises"/>
 =======
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Mandzha_Simon.Exercises"/>
 >>>>>>> pr/5
+=======
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="weiss_ari.Exercises"/>
+>>>>>>> pr/9
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="PullRequest-Assignment"/>
 </launchConfiguration>
