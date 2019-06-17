@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
+<<<<<<< HEAD
+=======
+<libraryInfo home="C:\Program Files\Java\jre1.8.0_201" version="1.8.0_201">
+<bootpath>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\jfr.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_201\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+>>>>>>> pr/5
 <libraryInfo home="C:\Program Files\Java\jdk1.8.0_91" version="1.8.0_91">
 <bootpath>
 <entry path="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar"/>
@@ -39,6 +61,7 @@
 </endorsedDirs>
 </libraryInfo>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <libraryInfo home="C:\Program Files\Java\jre1.8.0_91" version="1.8.0_91">
 <bootpath>
 <entry path="C:\Program Files\Java\jre1.8.0_91\lib\resources.jar"/>
@@ -61,6 +84,8 @@
 <endorsedDirs>
 <entry path="C:\Program Files\Java\jre1.8.0_91\lib\endorsed"/>
 =======
+=======
+>>>>>>> pr/5
 <libraryInfo home="C:\Program Files\Java\jdk1.8.0_91\jre" version="1.8.0_91">
 <bootpath>
 <entry path="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar"/>
@@ -78,7 +103,10 @@
 </extensionDirs>
 <endorsedDirs>
 <entry path="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+<<<<<<< HEAD
 >>>>>>> pr/4
+=======
+>>>>>>> pr/5
 </endorsedDirs>
 </libraryInfo>
 </libraryInfos>
