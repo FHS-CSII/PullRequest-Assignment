@@ -1,0 +1,8 @@
+/**
+ * @author Ryan Puharic
+ **/
+package Puharic_Ryan;
+
+public class Driver {
+	System.out.println(Exercises.threeAndFive());
+}
