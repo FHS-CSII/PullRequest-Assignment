@@ -7,6 +7,7 @@ org.eclipse.wst.jsdt.ui.javadoclocations.migrated=true
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 proposalOrderMigrated=true
 >>>>>>> pr/18
@@ -16,6 +17,8 @@ proposalOrderMigrated=true
 =======
 proposalOrderMigrated=true
 >>>>>>> pr/21
+=======
+>>>>>>> pr/20
 tabWidthPropagated=true
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true

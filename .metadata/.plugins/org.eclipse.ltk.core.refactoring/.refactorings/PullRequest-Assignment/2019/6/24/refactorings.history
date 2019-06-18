@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <session version="1.0">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21,4 +22,8 @@
 =======
 <session version="1.0">&#x0A;<refactoring accessors="true" comment="Delete element from project &apos;PullRequest-Assignment&apos;&#x0D;&#x0A;- Original project: &apos;PullRequest-Assignment&apos;&#x0D;&#x0A;- Original element: &apos;Bhatt_Sahil.Exercises.java&apos;" description="Delete element" element1="/src&lt;Bhatt_Sahil{Exercises.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1560447750585" subPackages="false" version="1.0"/>&#x0A;<refactoring accessors="true" comment="Delete element from project &apos;PullRequest-Assignment&apos;&#x0D;&#x0A;- Original project: &apos;PullRequest-Assignment&apos;&#x0D;&#x0A;- Original element: &apos;Bhatt_Sahil.Main.java&apos;" description="Delete element" element1="/src&lt;Bhatt_Sahil{Main.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1560448171775" subPackages="false" version="1.0"/>
 >>>>>>> pr/21
+=======
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;PullRequest-Assignment&apos;&#x0D;&#x0A;- Original project: &apos;PullRequest-Assignment&apos;&#x0D;&#x0A;- Original element: &apos;Matti_Lorenzo.Driver.java&apos;" description="Delete element" element1="/src&lt;Matti_Lorenzo{Driver.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1560446517277" subPackages="false" version="1.0"/>
+>>>>>>> pr/20
 </session>
