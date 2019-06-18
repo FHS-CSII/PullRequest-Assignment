@@ -1,0 +1,10 @@
+package Bhatt_Sahil;
+
+public class Main 
+{
+	public static void Main(String[] args)
+	{
+	Exercise e = new Exercise();
+	System.out.println(e.threeAndFive());
+	}
+}

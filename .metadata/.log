@@ -90,6 +90,7 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 !SESSION 2019-06-17 17:59:05.051 -----------------------------------------------
 eclipse.buildId=4.6.3.M20170301-0400
 java.version=1.8.0_131
@@ -180,11 +181,15 @@ Binding(SHIFT+F9,
 !SUBENTRY 1 org.eclipse.jface 2 0 2019-06-12 14:00:22.184
 =======
 !SESSION 2019-06-13 13:11:18.180 -----------------------------------------------
+=======
+!SESSION 2019-06-13 13:15:15.893 -----------------------------------------------
+>>>>>>> pr/21
 eclipse.buildId=4.6.2.M20161124-1400
 java.version=1.8.0_91
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product
+<<<<<<< HEAD
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -data C:\Users\121acowles\Documents\GitHub\PullRequest-Assignment\PullRequest-Assignment -product org.eclipse.epp.package.cpp.product
 
 !ENTRY org.eclipse.jface 2 0 2019-06-13 13:11:23.811
@@ -207,11 +212,22 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2019-06-13 13:20:28.035
 >>>>>>> pr/19
+=======
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -data C:\Users\121sbhatt\Documents\GitHub\PullRequest-Assignment -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2019-06-13 13:15:20.800
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.jface 2 0 2019-06-13 13:15:20.863
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-13 13:15:20.863
+>>>>>>> pr/21
 !MESSAGE A conflict occurred for SHIFT+F9:
 Binding(SHIFT+F9,
 	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildCommand,Build Target Build,
 		Invoke a make target build for the selected container.,
 		Category(org.eclipse.ui.category.project,Project,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225,6 +241,9 @@ Binding(SHIFT+F9,
 =======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1ac8f29c,
 >>>>>>> pr/19
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2296926d,
+>>>>>>> pr/21
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -232,6 +251,7 @@ Binding(SHIFT+F9,
 	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.ShowFromClipboard,Open Element from Clipboard,
 		,
 		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,20 +310,35 @@ Binding(F9,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 !SUBENTRY 1 org.eclipse.jface 2 0 2019-06-13 13:20:28.035
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10ef09e3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-13 13:15:20.863
+>>>>>>> pr/21
 !MESSAGE A conflict occurred for F9:
 Binding(F9,
 	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildLastCommand,Rebuild Last Target,
 		Rebuild the last make target for the selected container or project.,
 		Category(org.eclipse.ui.category.project,Project,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d98e607,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 >>>>>>> pr/19
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@776d50d6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+>>>>>>> pr/21
 Binding(F9,
 	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.togglePauseOnErrorCommand,Pause on Test Execution Errors,
 		,
 		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -338,11 +373,19 @@ Binding(F9,
 	org.eclipse.ui.contexts.window,,,system)
 !SUBENTRY 1 org.eclipse.jface 2 0 2019-06-13 13:20:28.035
 >>>>>>> pr/19
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@43815bc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-13 13:15:20.863
+>>>>>>> pr/21
 !MESSAGE A conflict occurred for ALT+C:
 Binding(ALT+C,
 	ParameterizedCommand(Command(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaeditor.copycolumn,Copy,
 		,
 		Category(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaedtor.10x,ASA 9.x table schema editor,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -356,6 +399,9 @@ Binding(ALT+C,
 =======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2c6c6b7b,
 >>>>>>> pr/19
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@122bfaac,
+>>>>>>> pr/21
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -363,6 +409,7 @@ Binding(ALT+C,
 	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.newComment,New Comment,
 		,
 		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -376,10 +423,14 @@ Binding(ALT+C,
 =======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f714749,
 >>>>>>> pr/19
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ae3591b,
+>>>>>>> pr/21
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396,10 +447,19 @@ user global configuration and to define the default location to store repositori
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\121mhon'. If this is
 >>>>>>> pr/19
+=======
+!ENTRY org.eclipse.equinox.ds 1 0 2019-06-13 13:15:38.063
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-13 13:15:38.471
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\121sbhatt'. If this is
+>>>>>>> pr/21
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 !ENTRY org.eclipse.equinox.ds 1 0 2019-06-12 14:00:29.534
@@ -430,12 +490,142 @@ eclipse.buildId=4.6.3.M20170301-0400
 !SESSION 2019-06-17 11:52:02.733 -----------------------------------------------
 eclipse.buildId=4.6.2.M20161124-1400
 >>>>>>> pr/19
+=======
+!ENTRY org.eclipse.launchbar.core 2 0 2019-06-13 13:51:18.857
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-06-13 13:51:19.029
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.apache.log4j 2 0 2019-06-13 13:57:31.189
+!MESSAGE org.eclipse.recommenders.models.ModelRepository  - Failed to download jre:jre:call:zip:1.0.0
+
+!STACK 0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not transfer artifact jre:jre:zip:call:1.0.0-20160630.185625-2 from/to models (http://download.eclipse.org/recommenders/models/neon/): ClientProtocolException
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193)
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:169)
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact jre:jre:zip:call:1.0.0-20160630.185625-2 from/to models (http://download.eclipse.org/recommenders/models/neon/): ClientProtocolException
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:43)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:355)
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:67)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:581)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:249)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 8 more
+Caused by: org.apache.http.client.ClientProtocolException
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:867)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.impl.client.DecompressingHttpClient.execute(DecompressingHttpClient.java:158)
+	at org.eclipse.aether.transport.http.HttpTransporter.execute(HttpTransporter.java:287)
+	at org.eclipse.aether.transport.http.HttpTransporter.implGet(HttpTransporter.java:243)
+	at org.eclipse.aether.spi.connector.transport.AbstractTransporter.get(AbstractTransporter.java:59)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask(BasicRepositoryConnector.java:447)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:350)
+	... 13 more
+Caused by: org.apache.http.client.CircularRedirectException: Circular redirect to 'http://mirror.nbtelecom.com.br/eclipse/recommenders/models/neon/jre/jre/1.0.0-SNAPSHOT/jre-1.0.0-20160630.185625-2-call.zip'
+	at org.apache.http.impl.client.DefaultRedirectStrategy.getLocationURI(DefaultRedirectStrategy.java:174)
+	at org.apache.http.impl.client.DefaultRedirectStrategy.getRedirect(DefaultRedirectStrategy.java:217)
+	at org.apache.http.impl.client.DefaultRequestDirector.handleResponse(DefaultRequestDirector.java:1084)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:515)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	... 21 more
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2019-06-13 13:57:31.204
+!MESSAGE jre:jre:call:zip:1.0.0 could not be resolved from the model repositories. Are you offline?
+
+!ENTRY org.apache.log4j 2 0 2019-06-13 13:57:31.267
+!MESSAGE org.eclipse.recommenders.models.ModelRepository  - Failed to download jre:jre:call:zip:1.0.0
+
+!STACK 0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer jre:jre:zip:call:1.0.0-20160630.185625-2 from http://download.eclipse.org/recommenders/models/neon/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact jre:jre:zip:call:1.0.0-20160630.185625-2 from/to models (http://download.eclipse.org/recommenders/models/neon/): ClientProtocolException
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193)
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:169)
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer jre:jre:zip:call:1.0.0-20160630.185625-2 from http://download.eclipse.org/recommenders/models/neon/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact jre:jre:zip:call:1.0.0-20160630.185625-2 from/to models (http://download.eclipse.org/recommenders/models/neon/): ClientProtocolException
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:238)
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:206)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:585)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:503)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 8 more
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2019-06-13 13:57:31.267
+!MESSAGE jre:jre:call:zip:1.0.0 could not be resolved from the model repositories. Are you offline?
+
+!ENTRY org.apache.log4j 2 0 2019-06-13 14:03:17.333
+!MESSAGE org.eclipse.recommenders.models.ModelRepository  - Failed to download jre:jre:call:zip:1.0.0
+
+!STACK 0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer jre:jre:zip:call:1.0.0-20160630.185625-2 from http://download.eclipse.org/recommenders/models/neon/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact jre:jre:zip:call:1.0.0-20160630.185625-2 from/to models (http://download.eclipse.org/recommenders/models/neon/): ClientProtocolException
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193)
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:169)
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer jre:jre:zip:call:1.0.0-20160630.185625-2 from http://download.eclipse.org/recommenders/models/neon/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact jre:jre:zip:call:1.0.0-20160630.185625-2 from/to models (http://download.eclipse.org/recommenders/models/neon/): ClientProtocolException
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:238)
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:206)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:585)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:503)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 8 more
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2019-06-13 14:03:17.348
+!MESSAGE jre:jre:call:zip:1.0.0 could not be resolved from the model repositories. Are you offline?
+
+!ENTRY org.apache.log4j 2 0 2019-06-13 14:03:17.973
+!MESSAGE org.eclipse.recommenders.models.ModelRepository  - Failed to download jre:jre:call:zip:1.0.0
+
+!STACK 0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer jre:jre:zip:call:1.0.0-20160630.185625-2 from http://download.eclipse.org/recommenders/models/neon/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact jre:jre:zip:call:1.0.0-20160630.185625-2 from/to models (http://download.eclipse.org/recommenders/models/neon/): ClientProtocolException
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193)
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:169)
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer jre:jre:zip:call:1.0.0-20160630.185625-2 from http://download.eclipse.org/recommenders/models/neon/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact jre:jre:zip:call:1.0.0-20160630.185625-2 from/to models (http://download.eclipse.org/recommenders/models/neon/): ClientProtocolException
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:238)
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:206)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:585)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:503)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 8 more
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2019-06-13 14:03:17.973
+!MESSAGE jre:jre:call:zip:1.0.0 could not be resolved from the model repositories. Are you offline?
+!SESSION 2019-06-13 15:00:00.140 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+>>>>>>> pr/21
 java.version=1.8.0_91
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.cpp.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -476,10 +666,17 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 !SUBENTRY 1 org.eclipse.jface 2 0 2019-06-13 13:14:11.092
 !MESSAGE A conflict occurred for F9:
 >>>>>>> pr/17
+=======
+!ENTRY org.eclipse.jface 2 0 2019-06-13 15:00:22.373
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-13 15:00:22.373
+!MESSAGE A conflict occurred for F9:
+>>>>>>> pr/21
 Binding(F9,
 	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildLastCommand,Rebuild Last Target,
 		Rebuild the last make target for the selected container or project.,
 		Category(org.eclipse.ui.category.project,Project,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -501,6 +698,9 @@ Binding(F9,
 =======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2aaf7354,
 >>>>>>> pr/17
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c9ba9e2,
+>>>>>>> pr/21
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -508,6 +708,7 @@ Binding(F9,
 	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.togglePauseOnErrorCommand,Pause on Test Execution Errors,
 		,
 		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -658,13 +859,24 @@ Binding(SHIFT+F9,
 !ENTRY org.eclipse.jface 2 0 2019-06-17 11:54:03.752
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2019-06-17 11:54:03.752
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a18e18d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-13 15:00:22.373
+>>>>>>> pr/21
 !MESSAGE A conflict occurred for SHIFT+F9:
 Binding(SHIFT+F9,
 	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildCommand,Build Target Build,
 		Invoke a make target build for the selected container.,
 		Category(org.eclipse.ui.category.project,Project,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c24063c,
 >>>>>>> pr/19
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b628249,
+>>>>>>> pr/21
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -672,6 +884,7 @@ Binding(SHIFT+F9,
 	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.ShowFromClipboard,Open Element from Clipboard,
 		,
 		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -695,11 +908,19 @@ Binding(SHIFT+F9,
 	org.eclipse.ui.contexts.window,,,system)
 !SUBENTRY 1 org.eclipse.jface 2 0 2019-06-13 13:14:11.092
 >>>>>>> pr/17
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@727eae52,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-13 15:00:22.373
+>>>>>>> pr/21
 !MESSAGE A conflict occurred for ALT+C:
 Binding(ALT+C,
 	ParameterizedCommand(Command(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaeditor.copycolumn,Copy,
 		,
 		Category(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaedtor.10x,ASA 9.x table schema editor,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -713,6 +934,9 @@ Binding(ALT+C,
 =======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@55732ae6,
 >>>>>>> pr/17
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@237bdd46,
+>>>>>>> pr/21
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -720,6 +944,7 @@ Binding(ALT+C,
 	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.newComment,New Comment,
 		,
 		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -733,10 +958,14 @@ Binding(ALT+C,
 =======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@743167c7,
 >>>>>>> pr/17
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e32442d,
+>>>>>>> pr/21
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6501,3 +6730,30 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+=======
+!ENTRY org.eclipse.equinox.ds 1 0 2019-06-13 15:00:27.974
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-13 15:00:29.334
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\121sbhatt'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2019-06-13 15:00:34.517
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-06-18 09:58:32.984
+!MESSAGE An internal error occurred during: "Periodic workspace save.".
+!STACK 0
+java.lang.IllegalArgumentException: Cannot set lower sequence number for root (previous: 2, new: 1). Location: C:\Users\achiu\OneDrive - FRHSD\Documents\GitHub\PullRequest-AssignmentCSII\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.SaveManager.validateMasterTableBeforeSave(SaveManager.java:1621)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1285)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1277)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1254)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+>>>>>>> pr/21

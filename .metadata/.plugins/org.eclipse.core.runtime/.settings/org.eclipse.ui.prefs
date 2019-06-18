@@ -4,6 +4,7 @@ eclipse.preferences.version=1
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
 showIntro=false
 =======
@@ -24,3 +25,6 @@ showIntro=false
 =======
 showIntro=false
 >>>>>>> pr/19
+=======
+showIntro=false
+>>>>>>> pr/21

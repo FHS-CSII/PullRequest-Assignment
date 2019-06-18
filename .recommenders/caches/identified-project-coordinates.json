@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [[{"location":"C:\\Program Files\\Java\\jdk1.8.0_91","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"],[{"location":"C:\\Users\\121rforgosh\\Documents\\GitHub\\PullRequest-Assignment\\PullRequest-Assignment","type":"PROJECT","hints":{"PROJECT_NAME":"PullRequest-Assignment"}},"ABSENT"]]
 =======
 [[{"location":"C:\\Program Files\\Java\\jdk1.8.0_91","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"]]
 >>>>>>> pr/19
+=======
+[[{"location":"C:\\Users\\121sbhatt\\Documents\\GitHub\\PullRequest-Assignment\\PullRequest-Assignment","type":"PROJECT","hints":{"PROJECT_NAME":"PullRequest-Assignment"}},"ABSENT"],[{"location":"C:\\Program Files\\Java\\jdk1.8.0_91","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"]]
+>>>>>>> pr/21
